@@ -1,0 +1,58 @@
+
+
+/* Start slider */
+.slider{
+    margin: 10px auto;
+    margin-top: 50px;
+    width: 800px;
+    height: 350px;
+    position: relative;
+    border-radius: 5px;
+    border: 2px white solid;
+    overflow: hidden;
+    animation: slid 1s ease-out;
+}
+
+.slider img{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    transition: opacity 1s;
+    z-index: 1;
+    height: 57vh;
+}
+
+.slider img.active{
+    opacity: 1;
+}
+
+
+.img{
+    
+margin: auto;
+width: fit-content;
+
+
+}
+
+
+
+.fa-angle-left{
+    position: absolute;
+    left: 10px;
+    top:145px;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: fit-content;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.fa-angle-right{
+    position: absolute;
+    right: 10px;
+    top:145px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 5px;
+    z-index: 2;

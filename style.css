@@ -1,0 +1,203 @@
+/* CSS styles for the entire site */
+
+
+/* Strt Navbar*/
+
+
+
+.p-header{
+  color:black;
+  display: inline;
+  position: absolute;
+  top: 20px;
+   left: 20px;
+   padding-bottom: 20px;
+  font-style:unset ;
+  
+}
+
+  button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+   border: 2px solid #19283f;
+   background-color: white;
+  margin: 7px;
+ 
+   
+  }
+  .b1{
+    width:  30px;
+    height: 30px;
+    border-radius: 10px;
+   border: 2px solid blue;
+   background-color: white;
+  margin: 7px;
+  color:blue ;
+   
+  }
+
+  .button2{
+   margin: 10px;
+    text-align: center;
+    
+   
+  }
+  
+  /*Stert  Data table page */
+
+  table {
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 20px;
+  }
+  form{
+    text-align: center;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+.headen,.cap1{
+  text-align: center;
+  color: black;
+}
+.headen{
+  padding: 20px;
+  margin: 20px;
+}
+.svg-inline--fa{
+  color: green;
+  width: 20px;
+  height: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+    /*End  Data table page */
+
+    /*Ster About*/
+.loges{
+    
+    color: black;
+    align-content: space-around;
+    font-style:unset ;
+    font-size: 20px;
+    text-align: center;
+ 
+}
+
+
+
+
+#aboutUs {
+ text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  height: auto;
+
+}
+
+#aboutUs button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#aboutUs form label, #aboutUs form textarea {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+#contactButton{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer; 
+}
+#comments {
+  margin-left: 40px;
+  text-align: center;
+}
+#aboutUs form input[type="submit"] {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+#reactionIcons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#likeButton, #dislikeButton {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  
+}
+  #confirmationMessage{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+    /*End Abut*/
+
+/* Stert Comments */
+.commentheader{
+ text-align: center;
+  align-items: center;
+  padding: 20px 0 0 20px;
+  margin: 20px;
+ 
+}
+
+
+
+#comments {
+  margin-top: 20px;
+}
+
+#reactionIcons {
+  margin-top: 20px;
+}
+
+#likeButton, #dislikeButton {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#likeCount, #dislikeCount {
+  margin-left: 5px;
+  
+}
+/* End Comments */
+
+  
+ 
+  
